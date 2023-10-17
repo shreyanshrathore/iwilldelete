@@ -1,0 +1,37 @@
+/* CustomCarousel.css */
+
+/* Change the color of the inactive dots */
+.ant-carousel .slick-dots li {
+    background-color: #9d0a17 !important;
+    position: relative;
+    bottom: 50px;
+    /* width: 160px; */
+  }
+  
+  /* Change the color of the active/focused dot */
+  .ant-carousel .slick-dots li.slick-active button::before {
+    background-color: rgb(55, 147, 55) !important;
+  }
+
+
+  .ant-carousel {
+    .slick-next {
+      &::before {
+        content: '';
+      }
+    }
+    .slick-prev { 
+      &::before {
+        content: '';
+      }
+    }
+  }
+
+
+  .ant-dropdown-menu {
+    max-height: 160px; /* Set your desired maximum height */
+    overflow-y: auto;  /* Add a vertical scrollbar if the content exceeds the height */
+    color: #9d0a17;
+  }
+  
+  
